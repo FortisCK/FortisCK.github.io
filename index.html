@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mingzhang Chen — Homepage</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Noto+Serif+SC:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Golden border -->
+  <div class="mask-border" aria-hidden="true"></div>
+
+  <div class="paper-container">
+
+    <!-- ======= HEADER ======= -->
+    <header class="head">
+      <div class="head__inner">
+        <h1 class="head__name">Mingzhang&nbsp;Chen</h1>
+        <p class="head__name-cn">陈&nbsp;铭&nbsp;璋</p>
+        <p class="head__affil">
+          <span>Ph.D. Student</span>
+          <span class="head__dot" aria-hidden="true">·</span>
+          <span>Université de Rennes</span>
+        </p>
+      </div>
+    </header>
+
+    <!-- Double rule -->
+    <div class="rule rule--double" aria-hidden="true"><span></span><span></span></div>
+
+    <!-- Nav -->
+    <nav class="location-bar">
+      <a href="#about" class="location-bar__item is-active">Homepage</a>
+      <span class="location-bar__sep" aria-hidden="true">·</span>
+      <a href="#pubs"  class="location-bar__item">Research</a>
+      <span class="location-bar__sep" aria-hidden="true">·</span>
+      <a href="#links" class="location-bar__item">Elsewhere</a>
+    </nav>
+
+    <div class="rule rule--single" aria-hidden="true"></div>
+
+    <main class="main">
+
+      <!-- ======= ABOUT ======= -->
+      <section class="section section--about" id="about">
+        <h2 class="section__title"><span>About</span></h2>
+
+        <div class="section__body">
+          <p class="lede">
+            I am a Ph.D. student at
+            <a href="https://www.univ-rennes.fr/" target="_blank" rel="noopener">Université de Rennes</a>,
+            working on <em>medical image analysis</em>&mdash;specifically, shape priors and generative
+            models for craniofacial reconstruction from CBCT.
+          </p>
+
+          <p>
+            Previously, I received my M.S. from
+            <a href="https://www.seu.edu.cn/" target="_blank" rel="noopener">Southeast University</a>
+            (东南大学, 2022&ndash;2025), where I was advised by Prof. Huazhong Shu and Jiasong Wu.
+            My research sits at the intersection of 3D shape priors, identity modelling
+            and clinical imaging.
+          </p>
+
+          <p class="contact-line">
+            <span class="contact-line__key">Email</span>
+            <a href="mailto:mingzhang.chen@univ-rennes.fr">mingzhang.chen@univ-rennes.fr</a>
+          </p>
+        </div>
+      </section>
+
+      <!-- Ornamental divider -->
+      <div class="ornament" aria-hidden="true">
+        <span class="ornament__line"></span>
+        <span class="ornament__glyph">§</span>
+        <span class="ornament__line"></span>
+      </div>
+
+      <!-- ======= PUBLICATIONS ======= -->
+      <section class="section section--pubs" id="pubs">
+        <h2 class="section__title"><span>Publications</span></h2>
+
+        <ul class="pub-list">
+          <li class="pub-item">
+            <div class="pub-item__year" aria-hidden="true">
+              <span class="pub-item__year-num">2026</span>
+              <span class="pub-item__year-label">PMB</span>
+            </div>
+
+            <div class="pub-item__body">
+              <h3 class="pub-item__title">
+                Prior-guided craniofacial soft-tissue reconstruction from CBCT
+                under acquisition uncertainty via identity-quantized shape priors
+              </h3>
+              <p class="pub-item__authors">
+                <strong>Mingzhang Chen</strong>, Jiasong Wu, Luwei Liu, Han Bao, Ye Cao,
+                Qingmo Sun, Lotfi Senhadji, Huazhong Shu, Bin Yan.
+              </p>
+              <p class="pub-item__venue">
+                <em>Physics in Medicine &amp; Biology</em>, 2026.
+              </p>
+              <p class="pub-item__abstract">
+                We propose an identity-quantized shape prior that disentangles subject
+                identity from acquisition uncertainty, enabling robust soft-tissue
+                reconstruction from partial CBCT volumes.
+              </p>
+              <div class="pub-item__links">
+                <a href="http://iopscience.iop.org/article/10.1088/1361-6560/ae5ebc" target="_blank" rel="noopener">Paper</a>
+                <a href="#" class="pub-item__bibtex-toggle" data-target="bib-pmb2026">BibTeX</a>
+              </div>
+              <pre class="pub-item__bibtex" id="bib-pmb2026" hidden>@article{10.1088/1361-6560/ae5ebc,
+  author  = {Chen, Mingzhang and Wu, Jiasong and Liu, Luwei and Bao, Han and Cao, Ye and Sun, Qingmo and Senhadji, Lofti and Shu, Huazhong and Yan, Bin},
+  title   = {Prior-guided craniofacial soft-tissue reconstruction from CBCT under acquisition uncertainty via identity-quantized shape priors},
+  journal = {Physics in Medicine &amp; Biology},
+  url     = {http://iopscience.iop.org/article/10.1088/1361-6560/ae5ebc},
+  year    = {2026}
+}</pre>
+            </div>
+          </li>
+        </ul>
+
+        <p class="pub-list__footnote muted">
+          A complete list is available on
+          <a href="#" target="_blank" rel="noopener">Google Scholar</a>.
+        </p>
+      </section>
+
+      <!-- Ornamental divider -->
+      <div class="ornament" aria-hidden="true">
+        <span class="ornament__line"></span>
+        <span class="ornament__glyph">§</span>
+        <span class="ornament__line"></span>
+      </div>
+
+      <!-- ======= ELSEWHERE ======= -->
+      <section class="section section--links" id="links">
+        <h2 class="section__title"><span>Elsewhere</span></h2>
+
+        <ul class="link-grid">
+          <li>
+            <a href="#" target="_blank" rel="noopener">
+              <span class="link-grid__key">Scholar</span>
+              <span class="link-grid__val">Google Scholar</span>
+              <span class="link-grid__arrow" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/FortisCK" target="_blank" rel="noopener">
+              <span class="link-grid__key">Code</span>
+              <span class="link-grid__val">GitHub · FortisCK</span>
+              <span class="link-grid__arrow" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:mingzhang.chen@univ-rennes.fr">
+              <span class="link-grid__key">Email</span>
+              <span class="link-grid__val">mingzhang.chen@univ-rennes.fr</span>
+              <span class="link-grid__arrow" aria-hidden="true">↗</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+    </main>
+
+    <footer class="foot">
+      <span>© 2026 Mingzhang Chen</span>
+      <span class="foot__center" aria-hidden="true">✦</span>
+      <span class="muted">Last updated <time datetime="2026-04-18">April&nbsp;2026</time></span>
+    </footer>
+
+    <!-- Inline palette: discreet accent + theme toggle -->
+    <aside class="palette" aria-label="Appearance">
+      <span class="palette__label">Palette</span>
+      <span class="palette__swatches" data-key="accent" role="radiogroup" aria-label="Accent">
+        <button data-value="gold" title="Gold"><span style="--sw:#ebc65a"></span></button>
+        <button data-value="ink"  title="Ink" ><span style="--sw:#2b3f7a"></span></button>
+        <button data-value="leaf" title="Leaf"><span style="--sw:#4a7a4a"></span></button>
+        <button data-value="rust" title="Rust"><span style="--sw:#b5553a"></span></button>
+        <button data-value="mono" title="None"><span style="--sw:currentColor"></span></button>
+      </span>
+      <span class="palette__sep" aria-hidden="true">·</span>
+      <span class="palette__theme" data-key="theme" role="radiogroup" aria-label="Theme">
+        <button data-value="auto"  title="Auto (system)">Auto</button>
+        <button data-value="light" title="Light">Light</button>
+        <button data-value="dark"  title="Dark">Dark</button>
+      </span>
+    </aside>
+
+  </div>
+
+  <script>
+  const DEFAULTS = { accent: 'gold', theme: 'auto' };
+  const STORAGE_KEY = 'homepage.prefs.v1';
+
+  // Load persisted prefs
+  const state = Object.assign({}, DEFAULTS);
+  try {
+    const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+    if (saved.accent) state.accent = saved.accent;
+    if (saved.theme)  state.theme  = saved.theme;
+  } catch (e) { /* ignore malformed storage */ }
+
+  const systemDark = window.matchMedia('(prefers-color-scheme: dark)');
+
+  function resolvedTheme() {
+    if (state.theme === 'auto') return systemDark.matches ? 'dark' : 'light';
+    return state.theme;
+  }
+
+  function apply() {
+    const b = document.body;
+    b.setAttribute('data-accent', state.accent);
+    b.setAttribute('data-theme',  resolvedTheme());
+    document.querySelectorAll('[data-key]').forEach(group => {
+      const key = group.dataset.key;
+      group.querySelectorAll('button').forEach(btn => {
+        btn.classList.toggle('is-on', btn.dataset.value === state[key]);
+      });
+    });
+  }
+
+  function setKey(key, value) {
+    state[key] = value;
+    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch (e) {}
+    apply();
+  }
+
+  // Wire all control groups
+  document.querySelectorAll('[data-key]').forEach(group => {
+    const key = group.dataset.key;
+    group.querySelectorAll('button').forEach(btn => {
+      btn.addEventListener('click', () => setKey(key, btn.dataset.value));
+    });
+  });
+
+  // Re-apply on system preference change (only matters when theme === 'auto')
+  systemDark.addEventListener('change', () => { if (state.theme === 'auto') apply(); });
+
+  // Scroll-spy — pick the section whose top is closest-above viewport anchor
+  const navItems = [...document.querySelectorAll('.location-bar__item')];
+  const sections = ['about','pubs','links']
+    .map(id => ({id, el: document.getElementById(id)}))
+    .filter(s => s.el);
+
+  function updateActive() {
+    const anchor = window.innerHeight * 0.35;
+    let currentId = sections[0].id;
+    for (const s of sections) {
+      const top = s.el.getBoundingClientRect().top;
+      if (top - anchor <= 0) currentId = s.id;
+    }
+    navItems.forEach(a => {
+      const target = (a.getAttribute('href') || '').slice(1);
+      a.classList.toggle('is-active', target === currentId);
+    });
+  }
+  updateActive();
+  window.addEventListener('scroll', updateActive, { passive: true });
+  window.addEventListener('resize', updateActive);
+
+  // BibTeX toggle
+  document.querySelectorAll('.pub-item__bibtex-toggle').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      const target = document.getElementById(btn.dataset.target);
+      if (!target) return;
+      const isOpen = !target.hasAttribute('hidden');
+      if (isOpen) { target.setAttribute('hidden',''); btn.classList.remove('is-open'); }
+      else        { target.removeAttribute('hidden'); btn.classList.add('is-open'); }
+    });
+  });
+
+  apply();
+  </script>
+</body>
+</html>
