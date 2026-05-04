@@ -5,9 +5,9 @@
 /* ========== TOKENS ========== */
 :root {
   /* Paper palette */
-  --bg:         #fffdf6;
-  --bg-soft:    #f6f1e2;
-  --bg-sink:    #efe8d2;
+  --bg:         #f5e9db;
+  --bg-soft:    #ecdfca;
+  --bg-sink:    #e3d4b8;
   --text:       #1a1713;
   --text-2:     #3a352d;
   --text-3:     #6a6358;
@@ -15,9 +15,9 @@
   --rule:       #1a1713;
   --rule-soft:  #d8d0b9;
   --rule-hair:  #e8e2cf;
-  --accent:     #ebc65a;
+  --accent:     #d0b793;
   --accent-ink: #1a1713;
-  --accent-tint:#fbf4d8;
+  --accent-tint:#f4ecd8;
 
   /* Type stacks */
   --f-display: 'Abril Fatface', 'EB Garamond', 'Noto Serif SC', Georgia, serif;
@@ -43,11 +43,11 @@
   transition: background-color .4s ease, color .4s ease;
 }
 
-[data-accent="gold"]  { --accent: #ebc65a; --accent-ink: #1a1713; --accent-tint: #fbf4d8; }
-[data-accent="ink"]   { --accent: #2b3f7a; --accent-ink: #fffdf6; --accent-tint: #e3e7f3; }
-[data-accent="leaf"]  { --accent: #4a7a4a; --accent-ink: #fffdf6; --accent-tint: #e3ebe1; }
-[data-accent="rust"]  { --accent: #b5553a; --accent-ink: #fffdf6; --accent-tint: #f3e0d6; }
-[data-accent="mono"]  { --accent: #2a2620; --accent-ink: #fffdf6; --accent-tint: #e6e1d0; }
+[data-accent="nankeen"] { --accent: #d0b793; --accent-ink: #1a1713; --accent-tint: #f4ecd8; }
+[data-accent="indigo"]  { --accent: #1f4287; --accent-ink: #fffdf6; --accent-tint: #dde2f0; }
+[data-accent="leaf"]    { --accent: #4a7a4a; --accent-ink: #fffdf6; --accent-tint: #e3ebe1; }
+[data-accent="rust"]    { --accent: #b5553a; --accent-ink: #fffdf6; --accent-tint: #f3e0d6; }
+[data-accent="mono"]    { --accent: #2a2620; --accent-ink: #fffdf6; --accent-tint: #e6e1d0; }
 
 [data-theme="dark"] {
   --bg:        #262019;
@@ -61,11 +61,11 @@
   --rule-soft: #473d30;
   --rule-hair: #332c23;
 }
-[data-theme="dark"][data-accent="gold"] { --accent: #d4ac44; --accent-ink: #262019; --accent-tint: #4a3c1e; }
-[data-theme="dark"][data-accent="ink"]  { --accent: #8498d4; --accent-tint: #2b3352; }
-[data-theme="dark"][data-accent="leaf"] { --accent: #8db88c; --accent-tint: #2c3f2c; }
-[data-theme="dark"][data-accent="rust"] { --accent: #d08368; --accent-tint: #4a2e22; }
-[data-theme="dark"][data-accent="mono"] { --accent: #d4cdb8; --accent-ink: #262019; --accent-tint: #3a3128; }
+[data-theme="dark"][data-accent="nankeen"] { --accent: #b39a76; --accent-ink: #262019; --accent-tint: #3d3424; }
+[data-theme="dark"][data-accent="indigo"]  { --accent: #7a93cc; --accent-tint: #1f2848; }
+[data-theme="dark"][data-accent="leaf"]    { --accent: #8db88c; --accent-tint: #2c3f2c; }
+[data-theme="dark"][data-accent="rust"]    { --accent: #d08368; --accent-tint: #4a2e22; }
+[data-theme="dark"][data-accent="mono"]    { --accent: #d4cdb8; --accent-ink: #262019; --accent-tint: #3a3128; }
 
 /* ========== RESET ========== */
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
@@ -486,7 +486,7 @@ strong { font-weight: 600; }
   color: var(--accent-ink);
   transform: translate(2px, -2px);
 }
-[data-accent="gold"] .link-grid a:hover .link-grid__arrow { color: #1a1713; }
+[data-accent="nankeen"] .link-grid a:hover .link-grid__arrow { color: #1a1713; }
 
 /* ========== FOOTER ========== */
 .foot {
